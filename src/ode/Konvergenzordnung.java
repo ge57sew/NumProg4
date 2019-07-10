@@ -29,7 +29,7 @@ public class Konvergenzordnung {
     /**
      *
      * @param testODE Test-Differentialgleichung
-     * @param y0 Test-Startwert
+     * @param y0 Test-Startwert3
      * @param ystar Exakter Wert nach Zeit T
      * @param T Zeitpunkt, bis zu dem integriert werden soll
      */

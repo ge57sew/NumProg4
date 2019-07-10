@@ -11,7 +11,7 @@ import java.util.Arrays;
 public class ExpliziterEuler implements Einschrittverfahren {
 
     public double[] nextStep(double[] y_k, double t, double delta_t, ODE ode) {
-        // TODO: diese Methode ist zu implementieren
+        // TODO: done
         double[] f = ode.auswerten(t,y_k);
         double[] result = new double[y_k.length];
         for(int i = 0; i < result.length; i++)

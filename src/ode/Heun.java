@@ -14,7 +14,7 @@ public class Heun implements Einschrittverfahren {
      * Nutzen Sie dabei geschickt den Expliziten Euler.
      */
     public double[] nextStep(double[] y_k, double t, double delta_t, ODE ode) {
-        // TODO: diese Methode ist zu implementieren
+        // TODO: done
         double[] result = new double[y_k.length];
         double[] f = ode.auswerten(t, y_k);
 
