@@ -14,7 +14,7 @@ public class RungeKutta4 implements Einschrittverfahren {
      * Bei der Umsetzung koennen die Methoden addVectors und multScalar benutzt werden.
      */
     public double[] nextStep(double[] y_k, double t, double delta_t, ODE ode) {
-        // TODO: done, but results don't match
+        // TODO: done
 
         double[] f1 = ode.auswerten(t, y_k);
         double[] k1 = multScalar(f1, delta_t);
@@ -34,7 +34,6 @@ public class RungeKutta4 implements Einschrittverfahren {
         double[] res = new double[y_k.length];
         for (int i  = 0; i  < y_k.length; i ++)
             res[i] = y_k[i] + (k1[i] + 2.0*k2[i] + 2.0*k3[i] + k4[i])/6.0;
-
         return res;
     }
 

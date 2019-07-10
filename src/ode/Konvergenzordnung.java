@@ -24,8 +24,7 @@ public class Konvergenzordnung {
      * @param ystar Exakter Wert nach Zeit T
      * @param T Zeitpunkt, bis zu dem integriert werden soll
      */
-    public Konvergenzordnung(ODE testODE, double[] y0, double[] ystar, double T)
-    {
+    public Konvergenzordnung(ODE testODE, double[] y0, double[] ystar, double T) {
         this.testODE = testODE;
         this.y0 = y0;
         this.ystar = ystar;
@@ -39,13 +38,11 @@ public class Konvergenzordnung {
      * @param schrittweite
      * @return y_k(T), berechnet mit dem Einschrittverfahren und der Schrittweite.
      */
-    private double[] integrate(Einschrittverfahren verfahren, double schrittweite)
-    {
+    private double[] integrate(Einschrittverfahren verfahren, double schrittweite) {
         double[] y_end = Arrays.copyOf(y0, y0.length);
         double t = 0;
 
-        while(t < T)
-        {
+        while(t < T) {
             y_end = verfahren.nextStep(y_end, t, schrittweite, testODE);
             t += schrittweite;
         }
@@ -58,14 +55,11 @@ public class Konvergenzordnung {
      *
      * @return e_h = ||yh - yexact||_2
      */
-    private double error(double[] yh)
-    {
+    private double error(double[] yh) {
         double e = 0.0;
 
         for(int i=0; i<yh.length; i++)
-        {
             e += (ystar[i]-yh[i])*(ystar[i]-yh[i]);
-        }
 
         return Math.sqrt(e);
     }
@@ -77,9 +71,15 @@ public class Konvergenzordnung {
      * @param h Die Schrittweite h, für die die Abschätzung der Ordnung durchgeführt werden soll.
      * @return Ordnung p
      */
-    public double order(Einschrittverfahren verfahren, double h)
-    {
-        // TODO: diese Methode ist zu implementieren
-        return 0.0;
+    public double order(Einschrittverfahren verfahren, double h) {
+        // TODO: done
+        double[] yh1 = integrate(verfahren, h );
+        double   eh1 = error(yh1);
+
+        double    h2 = h/2;
+        double[] yh2 = integrate(verfahren, h2);
+        double   eh2 = error(yh2);
+
+        return Math.log(eh1/eh2)/Math.log(h/h2);
     }
 }
