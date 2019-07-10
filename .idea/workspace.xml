@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d948f47-1229-4f48-adc9-31ddd4a519c5" name="Default Changelist" comment="ロリコンじゃないし、でもロリが好きですよw">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ode/Konvergenzordnung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ode/Konvergenzordnung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ode/RungeKutta4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ode/RungeKutta4.java" afterDir="false" />
-    </list>
+    <list default="true" id="8d948f47-1229-4f48-adc9-31ddd4a519c5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="NumProg4.iml" />
     <ignored path=".idea/vcs.xml" />
@@ -187,7 +183,7 @@
       <option name="presentableId" value="Default" />
       <updated>1562588438530</updated>
       <workItem from="1562588440139" duration="123000" />
-      <workItem from="1562615525277" duration="12211000" />
+      <workItem from="1562615525277" duration="12588000" />
     </task>
     <task id="LOCAL-00001" summary="Not done yet: Konvergenz&#10;The rest are done.&#10;I believe I'd implemented RungeKutta4 correctly, but the results don't match.&#10;Like what the fuck is wrong with humanity, making each other suffer with such shenanigans...&#10;何故人間ハオ互イニ迚モ残酷ナノデスカ？-光海">
       <created>1562624116926</created>
@@ -210,11 +206,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562757065362</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ロリコンじゃないし、でもロリが好きですよw">
+      <created>1562765024767</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1562765024767</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12334000" />
+    <option name="totallyTimeSpent" value="12711000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -229,7 +232,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -238,11 +241,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
