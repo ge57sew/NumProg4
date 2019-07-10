@@ -7,6 +7,7 @@ import java.util.Arrays;
  * @author dietrich
  *
  */
+
 public class Konvergenzordnung {
 
     /** Festgelegte Differentialgleichung, an der der Konvergenztest durchgeführt wird.*/

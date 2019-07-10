@@ -13,6 +13,7 @@ public class Heun implements Einschrittverfahren {
      * {@inheritDoc}
      * Nutzen Sie dabei geschickt den Expliziten Euler.
      */
+
     public double[] nextStep(double[] y_k, double t, double delta_t, ODE ode) {
         // TODO: done
         double[] result = new double[y_k.length];

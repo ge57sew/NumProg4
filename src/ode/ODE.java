@@ -5,8 +5,8 @@ package ode;
  * deren rechte Seite ausgewertet werden kann.
  *
  * @author braeckle
- *
  */
+
 public interface ODE {
     /**
      * wertet die rechte Seite der ODE zu einem Zeitpunkt t mit einer aktuellen

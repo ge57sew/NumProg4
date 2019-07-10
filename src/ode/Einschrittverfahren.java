@@ -4,8 +4,8 @@ package ode;
  * Das Interface fuer alle Einschrittverfahren.
  *
  * @author braeckle
- *
  */
+
 public interface Einschrittverfahren {
     /**
      * Diese Methode berechnet einen Schritt des Einschrittverfahrens

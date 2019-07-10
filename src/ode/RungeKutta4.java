@@ -13,6 +13,7 @@ public class RungeKutta4 implements Einschrittverfahren {
      * {@inheritDoc}
      * Bei der Umsetzung koennen die Methoden addVectors und multScalar benutzt werden.
      */
+
     public double[] nextStep(double[] y_k, double t, double delta_t, ODE ode) {
         // TODO: done
 
