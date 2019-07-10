@@ -9,25 +9,16 @@ import java.util.Arrays;
  */
 public class Konvergenzordnung {
 
-    /**
-     * Festgelegte Differentialgleichung, an der der Konvergenztest durchgeführt wird.
-     */
+    /** Festgelegte Differentialgleichung, an der der Konvergenztest durchgeführt wird.*/
     private final ODE testODE;
-    /**
-     * Startwert bei der Lösung der Differentialgleichung
-     */
+    /** Startwert bei der Lösung der Differentialgleichung*/
     private final double[] y0;
-    /**
-     * Wert der Lösung der Differentialgleichung nach T Sekunden.
-     */
+    /** Wert der Lösung der Differentialgleichung nach T Sekunden.*/
     private final double[] ystar;
-    /**
-     * Zeitpunkt bis zu dem integriert werden soll.
-     */
+    /** Zeitpunkt bis zu dem integriert werden soll.*/
     private final double T;
 
     /**
-     *
      * @param testODE Test-Differentialgleichung
      * @param y0 Test-Startwert3
      * @param ystar Exakter Wert nach Zeit T
